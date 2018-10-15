@@ -1,0 +1,63 @@
+datasource:
+  primary:
+    one:
+        jdbcUrl: jdbc:mysql://localhost:3306/sakila?autoReconnect=true&useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+        username: root
+        password: root1234
+        driverClassName: com.mysql.jdbc.Driver
+        maximumPoolSize: 5
+        catalog: sakila
+    two:
+        jdbcUrl: jdbc:mysql://localhost:3306/sakila?autoReconnect=true&useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+        username: root
+        password: root1234
+        driverClassName: com.mysql.jdbc.Driver
+        maximumPoolSize: 5
+        catalog: sakila
+    
+  secondary:
+    jdbcUrl: jdbc:mysql://localhost:3306/sakila?autoReconnect=true&useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: root1234
+    driverClassName: com.mysql.jdbc.Driver
+    maximumPoolSize: 5
+    catalog: sakila
+    
+  third:
+    jdbcUrl: jdbc:mysql://localhost:3306/sakila?autoReconnect=true&useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: root1234
+    driverClassName: com.mysql.jdbc.Driver
+    maximumPoolSize: 5
+    catalog: sakila
+    
+  fourth:
+    jdbcUrl: jdbc:mysql://localhost:3306/sakila?autoReconnect=true&useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: root1234
+    driverClassName: com.mysql.jdbc.Driver
+    maximumPoolSize: 5
+    catalog: sakila
+    
+  fifth:
+    jdbcUrl: jdbc:mysql://localhost:3306/world?autoReconnect=true&useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: root1234
+    driverClassName: com.mysql.jdbc.Driver
+    maximumPoolSize: 5
+    catalog: world
+    
+  sixth:
+    jdbcUrl: jdbc:mysql://localhost:3306/library?autoReconnect=true&useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: root1234
+    driverClassName: com.mysql.jdbc.Driver
+    maximumPoolSize: 5
+    catalog: library
+   
+logging:
+  level:
+    org.springframework.web: INFO
+    org.springframework.security.*: DEBUG
+    org.thymeleaf: INFO
+    org.test: INFO
